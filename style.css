@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: purple;
+    background-image: purple;
+}
+
+.header{
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-shadow: 4px 4px rgb(204, 152, 204);;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 75px;
+    padding: 25px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming{
+    color: black;
+    font-size: 60px;
+}
+
+.soon {
+    color: white;
+    font-size: 40px;
+}
+.main{
+    height: 70vh;
+    
+}
+
+.box  {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.288);
+    border-radius: 23px;
+    flex-direction: column;
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+    font-weight: 400;
+    background-color: purple;
+    background-image: linear-gradient(to top, purple, white);
+}
